@@ -5,16 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: aindjare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/05 17:19:57 by aindjare          #+#    #+#             */
-/*   Updated: 2023/11/06 16:58:57 by aindjare         ###   ########.fr       */
+/*   Created: 2023/11/10 09:25:04 by aindjare          #+#    #+#             */
+/*   Updated: 2023/11/10 09:25:29 by aindjare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #	include "./libft.h"
 
-int ft_isdigit_test(void)
+int	ft_isdigit_test(void)
 {
-	int failures;
+	int	failures;
 
 	failures = 0;
 	for (int i = 0; i < 256; i++)
